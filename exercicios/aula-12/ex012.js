@@ -22,6 +22,10 @@ switch(diaSem) {
         break
     case 6:
         console.log('Sábado')
+        break
     default:
-        console.log('[ERRO] Dia Inválido!')
+        console.log('[ERRO] Dia inválido!')
+        break
 }
+
+console.log(`Hoje é ${agora}, então, boa semana`)
